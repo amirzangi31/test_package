@@ -1,8 +1,7 @@
 {
   "name": "@amirzangi31/test_package",
   "private": false,
-  "version": "0.0.2",
-  "type": "module",
+  "version": "0.0.3",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",

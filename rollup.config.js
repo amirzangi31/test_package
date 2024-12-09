@@ -39,7 +39,7 @@ export default [
     input: "src/index.ts",
     output: [{ file: packageJson.types, format: "esm" }],
     plugins: [
-      dts(), // تولید فایل‌های تعریف تایپ
+      dts.default(), // تولید فایل‌های تعریف تایپ
     ],
     external: [/\.css$/], // حذف فایل‌های CSS از خروجی تایپ‌ها
   },
